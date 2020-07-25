@@ -1,0 +1,113 @@
+.sign {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign h1 {
+    margin: 20px;
+    font-weight: 400;
+    margin-bottom: 10vh;
+    color: rgb(90, 86, 86);
+}
+
+.fpass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fpass h2 {
+    margin: 20px;
+    font-weight: 400;
+    color: rgb(90, 86, 86);
+}
+
+.sign .container {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    align-items: center;
+}
+
+.sign .selector {
+    width: 100%;
+    height: 40px;
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+    border: lightgray 1px solid;
+    margin-bottom: 20px;
+}
+
+.sign .selector span {
+    flex: 1;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #2f3adb;
+}
+
+.uploadBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadBox #form {
+    overflow: hidden;
+    width: 500px;
+    background-color: #ffff;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+.uploadBox h1 {
+    color: slategrey;
+    background-color: #fff;
+}
+
+.uploadBox #form img {
+    background-color: rgb(26, 25, 25);
+    object-fit: contain;
+    width: 100%;
+    max-height: 400px;
+}
+
+.uploadBox #form #btn-select {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.uploadBox #form #btn-select label {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 450px) {
+    .sign .container {
+        width: 90vw;
+    }
+}

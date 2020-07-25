@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+.App {
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+h1 {
+    background-color: #fafafa;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.header span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.post_dash {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
